@@ -2,6 +2,8 @@
 //  CardEditorView.swift
 //  MemoryCards
 //
+//  Created by Mikhail Krotov on 14.05.2026.
+//
 
 import SwiftUI
 import SwiftData
@@ -34,10 +36,10 @@ struct CardEditorView: View {
     var body: some View {
         NavigationStack {
             Form {
-                TextField("Word or phrase", text: $term, axis: .vertical)
+                TextField("Front side", text: $term, axis: .vertical)
                     .textInputAutocapitalization(.sentences)
 
-                TextField("Meaning", text: $translation, axis: .vertical)
+                TextField("Back side", text: $translation, axis: .vertical)
                     .textInputAutocapitalization(.sentences)
             }
             .navigationTitle(navigationTitle)

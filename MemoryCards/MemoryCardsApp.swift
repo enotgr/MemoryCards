@@ -2,6 +2,8 @@
 //  MemoryCardsApp.swift
 //  MemoryCards
 //
+//  Created by Mikhail Krotov on 14.05.2026.
+//
 
 import SwiftUI
 import SwiftData
